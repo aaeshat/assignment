@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me - Media Page</title>
+  </head>
+  <body>
+    <h1>Hello! I'm an AltSchooler</h1>
+    <p>I joined AltSchool to become a skilled and world-class engineer. I'm committed to the journey and ready to learn everything I can!</p>
+
+    <h2>🎧 Voice Note</h2>
+    <audio controls>
+      <source src="voice.mp3" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+
+    <h2>🎥 Introduction Video</h2>
+    <video width="300" controls>
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+
+    <h2>🖼 Responsive Picture of Me</h2>
+    <picture>
+      <source media="(max-width: 600px)" srcset="me-small.jpg">
+      <source media="(max-width: 1024px)" srcset="me-medium.jpg">
+      <img src="me-large.jpg" alt="My image on laptop">
+    </picture>
+
+    <h2>📄 My Resume (PDF)</h2>
+    <iframe src="resume.pdf" width="100%" height="500px"></iframe>
+
+    <br>
+    <a href="table.html">Back to Table Page</a><br>
+    <a href="index.html">Back to Home</a>
+  </body>
+</html>
